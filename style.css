@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.banner {
+  width: 100%;
+  height: 100vh;
+}
+main section.banner aside.game {
+  width: 400px;
+  height: 500px;
+  background-color: hsl(0, 0%, 30%);
+  flex-direction: column;
+}
+main section.banner aside.game section.images {
+  width: 100%;
+  height: 100%;
+  padding: 0px 5px;
+  box-sizing: border-box;
+}
+main section.banner aside.game section.result {
+  width: 100%;
+  height: 100%;
+  gap: 50px;
+}
+main section.banner aside.game section.result span {
+  font-size: 20px;
+  color: white;
+}
+main section.banner aside.game section.images div {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+main section.banner aside.game section.images div img {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(0, 0%, 30%);
+  object-fit: contain;
+}
